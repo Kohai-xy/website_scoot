@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+  }
+  .container {
+    width: 1440px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .nav {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    &_brand {
+      font-family: "Space Mono", monospace;
+      color: #495567;
+      height: 68.559999465942383px;
+      width: 107.81714630126953px;
+      font-size: 34px;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    &_ul {
+      display: flex;
+      justify-content: space-around;
+      width: 25%;
+      margin-left: 120px;
+  
+      &_item {
+        list-style: none;
+        margin-top: -45px;
+      }
+      &_item a {
+        text-decoration: none;
+        color: #939caa;
+        font-family: Space Mono;
+        font-weight: 550;
+      }
+      &_item a:hover {
+        color: #fcb72b;
+      }
+    }
+    &_btn {
+      margin-left: 972px;
+      margin-top: -60px;
+      &_item {
+        width: 180px;
+        height: 53px;
+        background-color: #fcb72b;
+        border: none;
+        color: white;
+        font-family: Space Mono;
+      }
+      &_item:hover {
+        background-color: white;
+        color: #fcb72b;
+        border: 2px solid #fcb72b;
+      }
+    }
+  }
+  .main {
+    margin-top: -30px;
+    &_img {
+      margin-top: -200px;
+    }
+    &_img_mask {
+      width: 1440px;
+      height: 200px;
+      background-color: #2f3b59;
+      opacity: 75%;
+      margin-top: -204px;
+    }
+    &_h2 {
+      position: relative;
+      color: rgb(255, 255, 255);
+      font-family: Space Mono;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 56px;
+      letter-spacing: -1.5px;
+      text-align: left;
+      height: 112px;
+      width: 500px;
+      left: 165px;
+      top: -125px;
+    }
+    &_ellipse {
+      margin-left: 1237px;
+      top: -240px;
+      position: relative;
+    }
+    &_imgg{
+      margin-left: 150px;
+    }
+  }
+  .article{
+    margin-left: 150px;
+    margin-top: 550px;
+    display: flex;
+    &_h2 {
+      font-family: "Space Mono", monospace;
+      color: #495567;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -2.142857074737549px;
+      text-align: left;
+      height: 96px;
+      width: 345px;
+    }
+    &_p {
+      font-family: Lexend Deca;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: left;
+      height: 100px;
+      width: 445px;
+      color: #939caa;
+
+      margin-left: 20px;
+    }
+    &_btn {
+      &_item {
+        position: relative;
+        width: 180px;
+        height: 53px;
+        background-color: #fcb72b;
+        border: none;
+        color: white;
+        font-family: Space Mono;
+  left: 90px;
+        top: 40px;
+      }
+      &_item:hover {
+        background-color: white;
+        color: #fcb72b;
+        border: 2px solid #fcb72b;
+      }
+    }}
+    .footer {
+      margin-left: 10px;
+  ;
+      &_bg_img {
+        background: url(/images/www.svg) no-repeat;
+        width: 1440px;
+        height: 300px;
+    
+     
+        &_h4 {
+          height: 96px;
+          width: 415px;
+          left: 178px;
+          top: 101px;
+          font-family: Space Mono;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 48px;
+          letter-spacing: -2.142857074737549px;
+          text-align: left;
+          color: #fff;
+          position: relative;
+        }
+        &_play {
+          margin-left: 900px;
+          position: relative;
+          top: 20px;
+        }
+        &_play img {
+          margin-left: 20px;
+        }
+      }
+    
+      &_bg2 {
+        width: 1440px;
+        height: 96px;
+        background-color: #333a44;
+  padding-left: 180px;
+     padding-top: 10px;
+     position: relative;
+     top: -50px;
+      }
+      &_bg2 h1 {
+        color: #fff;
+      }
+      &_icons {
+        margin-left: 1150px;
+        position: relative;
+        top: -160px;
+    
+        &_ul {
+          display: flex;
+          justify-content: space-around;
+          width: 50%;
+          &_item {
+            list-style: none;
+            &_img:hover{
+              background-color: #fff;
+          }
+          }
+          &_item:hover{
+              color: #fff;
+          }
+        
+        }
+      }
+    }
